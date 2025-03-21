@@ -3,7 +3,7 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 12px;
   align-items: center;
   padding-bottom: 15px;
   left: 0%;
@@ -54,7 +54,7 @@ img{
 
 .dev {
 
-  border: 2.1px solid transparent;
+  border: 3px solid transparent;
 
   transition: border-color 0.3s ease;
 
@@ -62,9 +62,14 @@ img{
 
 .dev:hover {
 
-  border-color: rgb(147, 0, 255); /* Change to your preferred color */
+  border-color: rgb(64, 0, 255); /* Change to your preferred color */
 
 }
 body{
-  background-color: rgb(18, 18, 18);
+  background-color: hsl(0, 0%, 7%);
+}
+
+.big-shoulders-inline-eu {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-weight: 400px;
 }
